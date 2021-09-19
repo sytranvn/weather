@@ -12,7 +12,7 @@ app.use(logger('dev'));
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
-var staticServe = express.static(path.join(__dirname, 'client/build'));
+var staticServe = express.static(path.join(__dirname, 'public'));
 
 app.use('/api', apiRouter);
 app.use("/", staticServe);

@@ -2,8 +2,11 @@
   "name": "weather-server",
   "version": "0.0.0",
   "private": true,
+  "engines": {
+    "node": ">=v14.0.0"
+  },
   "scripts": {
-    "build-app": "cd client && yarn && yarn build",
+    "build": "cd client && yarn && yarn build && cp -R build ../public",
     "start": "node ./bin/www",
     "deploy:gc": "gcloud app deploy"
   },
