@@ -34,7 +34,7 @@ git submodule update --init --recursive
  | |-www
  |-server
  | |-routes
- |-client
+ |-client -> git@github:sytranvn/weather-app.git
  | |-public
  | |-build
  | |-src
