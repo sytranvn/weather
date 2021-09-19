@@ -27,8 +27,7 @@ git submodule update --init --recursive
  ```
 
 ## Structure
-```
-. 
+``` 
 .
  |-bin
  | |-www
