@@ -3,7 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "scripts": {
-    "start": "node ./bin/www"
+    "build-app": "cd client && yarn && yarn build",
+    "start": "node ./bin/www",
+    "deploy:gc": "gcloud app deploy"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
