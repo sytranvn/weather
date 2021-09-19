@@ -34,6 +34,13 @@ git clone git@github.com:sytranvn/weather.git
     ```
 - Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
+# Deploy
+This app including configuration to quickly deploy to googlecloud app engine. See more at https://cloud.google.com/appengine/docs/standard
+```
+yarn build
+yarn deploy:gc
+```
+
 ## Structure
 ``` 
 .
