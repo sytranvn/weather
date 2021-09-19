@@ -8,7 +8,7 @@
   "scripts": {
     "build": "cd client && yarn && yarn build && cp -R build ../public",
     "start": "node ./bin/www",
-    "deploy:gc": "gcloud app deploy"
+    "deploy:gc": "gcloud app deploy --stop-previous-version"
   },
   "dependencies": {
     "cookie-parser": "~1.4.4",
